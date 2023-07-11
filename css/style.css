@@ -313,7 +313,29 @@ div#f-cotent3 {
     font-weight: 700;
 
 }
-
+div#slick-custom-css {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+}
+.customer-heading {
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.customer-name{
+    color: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+}
 footer {
     background: #111010;
 }

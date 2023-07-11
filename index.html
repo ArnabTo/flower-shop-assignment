@@ -7,8 +7,12 @@
     <title>Flower Shop</title>
     <link rel="stylesheet" href="css/style.css" />
     <!--CAROUSEL CSS-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -142,8 +146,38 @@
             </div>
         </div>
     </div>
-     <!--CUSTOMER REVIEW SECTION-->
-   
+    <!--CUSTOMER REVIEW SECTION-->
+    <div class="slider-container">
+        <p class="customer-heading">Customer Feedback</p>
+        <div class="slick" id="slick-custom-css">
+            <div>
+                <p>
+                    "It’s really surprised to get great service from Florista. They delivered flowers exact date that i
+                    was mentioned! Quick response with customers. Flowers were fresh and beautiful too. Thanks Florista
+                    for your excellent service."
+                </p>
+                <p class="customer-name">Tony Stark</p>
+            </div>
+            <div>
+                <p>
+                    "Excellent customer service. Prompt response and catering towards customer’s need. An excellent place
+                    for sending premium quality flowers for your loved one. They provide a competitive price compared to
+                    the competitor. It’s a pleasure doing business with them and hopes to use the service for upcoming
+                    events. All the best. "
+                </p>
+                <p class="customer-name">Tony Stark</p>
+            </div>
+            <div>
+                <p>
+                    "It’s really surprised to get great service from Florista. They delivered flowers exact date that i
+                    was mentioned! Quick response with customers. Flowers were fresh and beautiful too. Thanks Florista
+                    for your excellent service."
+                </p>
+                <p class="customer-name">Tony Stark</p>
+            </div>
+        </div>
+    </div>
+
     <!--FOOTER SECTION-->
     <footer>
         <div class="footer-container">
@@ -155,13 +189,17 @@
             </div>
         </div>
     </footer>
+
+
     <!--SCRIPT SECTION-->
-    <script src="js/setting.js"></script>
-    <!--CAROSEL SCRIPT-->
-    <script src="js/owl.carousel.min.js"></script>
-    <!--JQUERY SECTION-->
-    <script src="js/jquery-3.7.0.min.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $('.slick').slick();
+    </script>
 </body>
 
 </html>
