@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hero {
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 10rem;
+}
+.hero-container {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 60%;
+    padding: 7rem 60px;
+}
+
+.hero-text>p:nth-child(1) {
+    width: 75%;
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.hero-text>p:nth-child(2) {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.shop-button {
+    width: 20%;
+    padding: 15px 0px;
+    color: white;
+    background: #E55473;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.hero-img img {
+    width: 80%;
+    position: relative;
+    top: 80px;
+}
+.feature {
+    margin-bottom: 5rem;
+}
+.feature-container {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.feater-content {
+    margin: auto;
+    text-align: center;
+}
+
+.content-wraper {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0px;
+    max-width: 1000px;
+    margin: auto;
+}
+.feature-content {
+    margin: auto;
+    text-align: center;
+
+}
+
+.feature-content-heading {
+    text-align: center;
+}
+
+.feature-content-heading p:nth-child(1) {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.feature-content-heading p:nth-child(2) {
+    width: 45%;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feature-cont-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-cont-img img {
+    width: 65%;
+    padding-top: 50px;
+}
+
+div#f-cotent3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+.feature-cont-txt u {
+    color: #272727;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.services {
+    margin-bottom: 5rem;
+}
+.service-container{
+    max-width: 1366px;
+    margin: auto;
+}
+.service-content {
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 72%;
+    display: flex;
+    justify-content: center;
+}
+.service {
+    margin: 2rem;
+}
